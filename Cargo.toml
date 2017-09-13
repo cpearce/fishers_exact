@@ -1,0 +1,11 @@
+[package]
+name = "fishers_exact"
+version = "0.1.0"
+authors = ["Chris Pearce <chris@pearce.org.nz>"]
+build = "build.rs"
+
+[dependencies]
+
+[build-dependencies]
+gcc = "*"
+libc = "*"
