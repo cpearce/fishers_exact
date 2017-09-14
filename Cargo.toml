@@ -12,5 +12,4 @@ keywords = ["fisher's", "statistics", "math", "exact test", "fishers exact"]
 [dependencies]
 
 [build-dependencies]
-gcc = "*"
-libc = "*"
+gcc = "0.3.54"

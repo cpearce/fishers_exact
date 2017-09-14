@@ -18,6 +18,8 @@ p = ((a + b)!(c + d)!(a + c)!(b + d)!) / (a! b! c! d! (a+b+c+d)!)
 Either a one tailed or two tailed test can be computed.
 
 ```
+use fishers_exact::{fishers_exact,TestTails};
+
 let p = fishers_exact(&[1,9,11,3], TestTails::Two);
 
 assert_eq!(0.001346 * 1e6, (p * 1e6).round())
