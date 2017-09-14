@@ -27,7 +27,6 @@ mod tests {
 
     #[test]
     fn it_works() {
-        assert_eq!(2 + 2, 4);
 
         // The examples from:
         // https://en.wikipedia.org/wiki/Fisher%27s_exact_test
