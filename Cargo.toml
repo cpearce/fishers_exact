@@ -8,7 +8,7 @@ build = "build.rs"
 categories = ["science"]
 repository = "https://github.com/cpearce/fishers_exact"
 documentation = "http://pearce.org.nz/rust_docs/fishers_exact/"
-keywords = ["fisher's", "statistics", "math", "exact test", "fishers exact"]
+keywords = ["fishers", "statistic", "math", "exact test", "fishers exact"]
 
 [dependencies]
 
