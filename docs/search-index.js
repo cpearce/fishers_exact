@@ -1,3 +1,0 @@
-var searchIndex = {};
-searchIndex["fishers_exact"] = {"doc":"Fisher's exact test from the R Project in a Rust crate.","items":[[4,"TestTails","fishers_exact","Passed to the fishers_exact function to express whether to perform a one or two tailed statistical test.",null,null],[13,"One","","",0,null],[13,"Two","","",0,null],[5,"fishers_exact","","Computes the Fisher's exact test to determine if there are nonrandom associations between two categorical variables, in a two by two contingency table.",null,null],[11,"clone","","",0,{"inputs":[{"name":"self"}],"output":{"name":"testtails"}}]],"paths":[[4,"TestTails"]]};
-initSearch(searchIndex);
