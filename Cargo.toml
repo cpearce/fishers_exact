@@ -7,7 +7,7 @@ license = "GPL-2.0/GPL-3.0"
 build = "build.rs"
 categories = ["science"]
 repository = "https://github.com/cpearce/fishers_exact"
-documentation = "https://github.com/cpearce/fishers_exact/doc"
+documentation = "http://pearce.org.nz/rust_docs/fishers_exact/"
 keywords = ["fisher's", "statistics", "math", "exact test", "fishers exact"]
 
 [dependencies]
