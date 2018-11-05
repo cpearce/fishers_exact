@@ -14,7 +14,7 @@
 //! [Fisher's exact test of independence](http://www.biostathandbook.com/fishers.html) by
 //! John H. McDonald in the [Handbook of Biological Statistics](http://www.biostathandbook.com/).
 //!
-//! The test is computed using code ported from Oyvind Langsrud's JavaScript
+//! The test is computed using code ported from Øyvind Langsrud's JavaScript
 //! implementation at [http://www.langsrud.com/fisher.htm](http://www.langsrud.com/fisher.htm),
 //! used with permission.
 
@@ -239,7 +239,7 @@ fn exact22(n11: i32, n12: i32, n21: i32, n22: i32) -> FishersExactPvalues {
 /// Computes the Fisher's exact pvales to determine if there are nonrandom associations between two
 /// categorical variables, in a two by two contingency table.
 ///
-/// The test is computed using code ported from Oyvind Langsrud's JavaScript
+/// The test is computed using code ported from Øyvind Langsrud's JavaScript
 /// implementation at [http://www.langsrud.com/fisher.htm](http://www.langsrud.com/fisher.htm).
 ///
 /// Use this when sample sizes are small. For large samples, other statistical tests of independence

@@ -1,21 +1,15 @@
-# Fisher's exact test from the [R Project](https://www.r-project.org/) in a Rust crate.
+# Fisher's exact test
 
-Passed to the fishers_exact function to express whether to perform a
-one or two tailed statistical test.
+Implements a 2×2 Fishers exact test. Use this to test the independence of two
+categorical variables when the sample sizes are small.
 
-Computes the [Fisher's exact test](https://en.wikipedia.org/wiki/Fisher%27s_exact_test)
-to determine if there are nonrandom associations between two
-categorical variables, in a two by two contingency table.
+For an approachable explanation of Fisher's exact test, see
+[Fisher's exact test of independence](http://www.biostathandbook.com/fishers.html) by
+John H. McDonald in the [Handbook of Biological Statistics](http://www.biostathandbook.com/).
 
-The test is computed using the Fisher's exact test code copied from
-the [R statistical computing package](https://www.r-project.org/).
-
-Given a one dimensional representation of a two by two matrix,
-[a,b,c,d], the test computes:
-
-p = ((a + b)!(c + d)!(a + c)!(b + d)!) / (a! b! c! d! (a+b+c+d)!)
-
-Either a one tailed or two tailed test can be computed.
+The test is computed using code ported from Øyvind Langsrud's JavaScript
+implementation at [http://www.langsrud.com/fisher.htm](http://www.langsrud.com/fisher.htm),
+used with permission.
 
 ```
 use fishers_exact::{fishers_exact,TestTails};
