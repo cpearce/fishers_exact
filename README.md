@@ -1,5 +1,7 @@
 # Fisher's exact test
 
+[![Build Status](https://travis-ci.org/cpearce/fishers_exact.svg?branch=master)](https://travis-ci.org/cpearce/fishers_exact)
+
 Implements a 2×2 Fishers exact test. Use this to test the independence of two
 categorical variables when the sample sizes are small.
 
