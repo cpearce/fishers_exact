@@ -1,10 +1,11 @@
 [package]
 name = "fishers_exact"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["Chris Pearce <chris@pearce.org.nz>"]
-description = "Fisher's exact statistical test, from the R Project."
+description = "Fisher's exact statistical test."
 license = "MIT OR Apache-2.0"
 categories = ["science"]
 repository = "https://github.com/cpearce/fishers_exact"
+documentation = "https://docs.rs/fishers_exact/1.0.1/fishers_exact/"
 keywords = ["fishers", "statistic", "math", "exact", "test"]
 
