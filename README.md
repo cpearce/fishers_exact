@@ -14,9 +14,11 @@ implementation at [http://www.langsrud.com/fisher.htm](http://www.langsrud.com/f
 used with permission.
 
 ```
-use fishers_exact::{fishers_exact,TestTails};
+use fishers_exact::fishers_exact;
 
-let p = fishers_exact(&[1,9,11,3], TestTails::Two);
+let p = fishers_exact(&[1,9,11,3]).unwrap();
 
-assert_eq!(0.001346 * 1e6, (p * 1e6).round())
+assert!((p.less_pvalue - 0.001346).abs() < 0.0001);
+assert!((p.greater_pvalue - 0.9999663).abs() < 0.0001);
+assert!((p.two_tail_pvalue - 0.0027594).abs() < 0.0001);
 ```
