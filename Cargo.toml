@@ -6,6 +6,5 @@ description = "Fisher's exact statistical test, from the R Project."
 license = "MIT OR Apache-2.0"
 categories = ["science"]
 repository = "https://github.com/cpearce/fishers_exact"
-documentation = "https://docs.rs/fishers_exact/0.1.0/fishers_exact/"
 keywords = ["fishers", "statistic", "math", "exact", "test"]
 
