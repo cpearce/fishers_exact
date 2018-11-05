@@ -4,8 +4,9 @@ version = "1.0.1"
 authors = ["Chris Pearce <chris@pearce.org.nz>"]
 description = "Fisher's exact statistical test."
 license = "MIT OR Apache-2.0"
+readme = "README.md"
 categories = ["science"]
 repository = "https://github.com/cpearce/fishers_exact"
-documentation = "https://docs.rs/fishers_exact/1.0.1/fishers_exact/"
+documentation = "https://docs.rs/fishers_exact"
 keywords = ["fishers", "statistic", "math", "exact", "test"]
 
